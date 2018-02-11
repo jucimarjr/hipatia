@@ -1,0 +1,93 @@
+input[type=text], [type=password] {
+	color: #868686;
+    width: 25%;
+    height: 40px;
+    padding: 1% 10px;
+    margin: 0.2%;
+    display: inline-block;
+    border: 2px solid #868686;
+    border-radius: 10px;
+}
+
+input[type=submit] {
+	border: none;
+    color: black;
+    padding: 8px 10px;
+    width: 15%;
+    text-align: center;
+    display: inline-block;
+    font-size: 110%;
+    margin: 0.5% 0.2%;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #ffd567;
+}
+
+.button {
+    padding: 6px 2px;
+    width: 15%;
+    text-align: center;
+    display: inline-block;
+    font-size: 110%;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.btn-facebook {
+    background-color: #3a5b90;
+    color: white;
+    border: 2px solid #3a5b90;
+	border-radius: 15px;
+    margin: 0 auto;
+}
+
+body {
+    text-align: center;
+    vertical-align: center;
+    background-image: url("assets/bghypatia.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+    font-family: "Fredoka One", cursive;
+    padding: 0 0 100px 0;
+}
+
+p{
+    font-weight: bolder;
+}
+
+a {
+    color: white;
+}
+
+.footer-verde {
+    padding: 0.2%;
+    background-color: #38817a;
+    width: 100%;
+    position: fixed;
+    bottom: 6%;
+}
+
+.footer-amarelo {
+    padding: 0.3%;
+    background-color: #f5f094;
+    width: 100%;
+    position: fixed;
+    bottom: 4%;
+}
+
+.footer {
+    padding: 0.9%;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0%;
+    color: #be9136;
+    background-color: #ffd567;
+}
+
+.header-menu {
+    padding: 20px 0 10px 0;
+
+}
