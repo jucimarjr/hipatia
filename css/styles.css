@@ -44,7 +44,7 @@ input[type=submit] {
 body {
     text-align: center;
     vertical-align: center;
-    background-image: url("assets/bghypatia.png");
+		background-image: url("/hipatia/img/bghypatia.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
