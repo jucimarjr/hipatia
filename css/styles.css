@@ -23,6 +23,16 @@ input[type=submit] {
     background-color: #ffd567;
 }
 
+.img-login {
+    width: 55%;
+     height: 55%;
+}
+
+button {
+    font-size:20px; 
+    align-items: left;
+}
+
 .button {
     padding: 6px 2px;
     width: 15%;
@@ -44,7 +54,7 @@ input[type=submit] {
 body {
     text-align: center;
     vertical-align: center;
-		background-image: url("/hipatia/img/bghypatia.png");
+	background-image: url("../img/bghypatia.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -87,7 +97,7 @@ a {
     background-color: #ffd567;
 }
 
-.header-menu {
+.header-login {
     padding: 20px 0 10px 0;
 
 }
