@@ -16,6 +16,7 @@
 
 
 	<body>
+
 		<div class="cadastro">
 			<img src="../img/logohypatia.png" class="img-cadastro" alt="Fjords">
 		</div>
@@ -32,28 +33,30 @@
 	          		<input type="password" id="senha" name="password" placeholder="Confirmar senha">
 	          			<br>
 	          		<p>Aluno ou professor?</p>
-	          		<div class="botao"> 
-	          			<input type="button" id="button" name="button" placeholder="Sou aluno">
-	          			<input type="button" id="button" name="button" placeholder="Sou professor">
-	          				<br>
+	          			<select>
+	 										<option value="0">Selecionar</option>
+	 										<option value="1">Aluno</option>
+	 										<option value="2">Professor</option>
+									</select>
+									<br>
 	            		<input type="submit" value="Cadastrar-se">
-	            			<br>
-	            		<p><h3> <a href="../index.html"> Voltar </a> </h3></p>
-	            	</div>
 	      </form>
+				<form action="../index.html">
+					<input type="submit" value="Voltar" />
+				</form>
 	    </div>
 
 
 	</body>
-	
+
 	<div class="footer-green">
 		<p>&nbsp;</p>
 	</div>
-	
+
 	<div class="footer-yellow">
 		<p>&nbsp;</p>
 	</div>
-	
+
 	<div class="footer">
 		<p>Desenvolvido por LUDUS 2018</p>
 	</div>
