@@ -161,3 +161,50 @@ a {
 
 
 }
+
+@media only screen and (max-width: 768px){
+    .header-login {
+        padding: 50px 0 30px 0;
+
+    }
+    .img-login {
+        width: 75%;
+        height: 55%;
+    }
+    input[type=submit] {
+        border: none;
+        height: 50px;
+        color: black;
+        padding: 8px 10px;
+        width: 250px;
+        text-align: center;
+        display: inline-block;
+        font-size: 110%;
+        margin: 4% auto;
+        cursor: pointer;
+        border-radius: 20px;
+        background-color: #ffd567;
+    }
+    input[type=text], [type=password] {
+        color: #868686;
+        width: 75%;
+        height: 40px;
+        padding: 1% 10px;
+        margin: 2%;
+        display: inline-block;
+        border: 2px solid #868686;
+        border-radius: 10px;
+    }
+    .btn-facebook {
+        background-color: #3a5b90;
+        height: 50px;
+        color: white;
+        width: 250px;
+        border: 2px solid #3a5b90;
+        border-radius: 75px;
+        margin: 3% auto;
+    }
+    p{
+        margin: 1% 1%;
+    }
+}
