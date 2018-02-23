@@ -61,6 +61,24 @@ button {
     border-radius: 15px;
 }
 
+.add-perguntas {
+    margin: auto;
+    color: black;
+    padding: 8px 10px;
+    border-radius: 20px;
+    background-color: #ffd567;
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+    font-size: 110%;
+    border-radius: 15px;
+    border-left-width: 20%;
+}
+
+.left {
+    left: 200px;
+}
+
 .btn-facebook {
     background-color: #3a5b90;
     color: white;
